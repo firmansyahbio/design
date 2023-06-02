@@ -20,11 +20,11 @@ React Pro Sidebar provides a set of components for creating high level and custo
 
 - [Utama](https://firmansyahbio.github.io/design)
 
-## Demo
+## Template
 
-- [Demo](https://azouaoui-med.github.io/react-pro-sidebar/iframe.html?id=playground--playground&args=&viewMode=story)
+- [Navigasi](https://firmansyahbio.github.io/design/template/nav)
 
-- [Storybook](https://azouaoui-med.github.io/react-pro-sidebar/?path=/docs/sidebar--basic)
+- [Storybook](https://firmansyahbio.github.io/design/template/nav)
 
 ## Screenshot
 
