@@ -22,7 +22,7 @@ React Pro Sidebar provides a set of components for creating high level and custo
 
 ## Template
 
-- [Navigasi](https://firmansyahbio.github.io/design/template/nav)
+- [Tiboni](https://firmansyahbio.github.io/design/template/tiboni)
 
 - [Storybook](https://firmansyahbio.github.io/design/template/nav)
 
