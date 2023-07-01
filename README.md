@@ -38,4 +38,6 @@ React Pro Sidebar provides a set of components for creating high level and custo
 yarn add react-pro-sidebar
 ```
 
-### npm
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
