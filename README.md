@@ -26,9 +26,6 @@ React Pro Sidebar provides a set of components for creating high level and custo
 
 - [Storybook](https://firmansyahbio.github.io/design/template/nav)
 
-## Screenshot
-
-![react-pro-sidebar](https://user-images.githubusercontent.com/25878302/212479928-553c2d37-793b-4bcd-ac53-352f26337955.jpg)
 
 ## Installation
 
