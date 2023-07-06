@@ -1,12 +1,12 @@
 
-function BukaPostQuran() {
-				document.getElementById ("quran-dialog").style.display ="block";
-				document.getElementById ("TutupPostQuran").style.display ="inline";
-				document.getElementById ("BukaPostQuran").style.display ="none";
+function BukaPostDesign() {
+				document.getElementById ("design-dialog").style.display ="block";
+				document.getElementById ("TutupPostDesign").style.display ="inline";
+				document.getElementById ("BukaPostDesign").style.display ="none";
 				}
 				
-function TutupPostQuran() {
-			  document.getElementById ("quran-dialog").style.display ="none";
-			  document.getElementById ("TutupPostQuran").style.display ="none";
-			  document.getElementById ("BukaPostQuran").style.display ="inline";
+function TutupPostDesign() {
+			  document.getElementById ("design-dialog").style.display ="none";
+			  document.getElementById ("TutupPostDesign").style.display ="none";
+			  document.getElementById ("BukaPostDesign").style.display ="inline";
 				}
