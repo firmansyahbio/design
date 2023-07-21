@@ -1,1 +1,145 @@
 
+
+      <div class="pricing-toggle-container poin-view-button">
+        <div class="toggle-container">
+          <div class="switch-toggle well">
+<input id="page-landing" name="pages" type="radio" value="landing" checked />
+<label for="page-landing">Menu</label>
+            
+<input id="page-ten" name="pages" type="radio" value="premium" />
+<label for="page-ten">Data</label>
+            
+<input id="page-fifteen" name="pages" type="radio" value="premiumplus" />
+<label for="page-fifteen">Alat</label>
+<a class="btn-primary"></a>
+         </div>
+      </div>
+   </div>
+  
+<div class="poin-view-content">
+        <section id="section-a1" class="section-a-1-of-3">
+        
+<div class="icon-menu">
+<a href="/p/al-quran.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa-solid fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-book-open-reader fa-stack-1x fa-invarse"></i>
+</span>
+    <span>Baca</span>
+  </a>
+  <a href="/p/al-quran-mp3.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-headphones-simple fa-stack-1x fa-invarse"></i>
+</span>
+    <span>Audio</span>
+  </a>
+  <a href="/p/pen.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-pen fa-stack-1x fa-invarse"></i>
+</span>
+   
+    <span>Catatan</span>
+  </a>
+  
+  <a href="/p/projects.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-code fa-stack-1x fa-invarse"></i>
+</span>
+    <span>Projects</span>
+  </a>
+    </div>
+    <div class="icon-menu">
+<a href="/p/al-quran.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa-solid fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-book-open-reader fa-stack-1x fa-invarse"></i>
+</span>
+    <span>Baca</span>
+  </a>
+  <a href="/p/al-quran-mp3.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-headphones-simple fa-stack-1x fa-invarse"></i>
+</span>
+    <span>Audio</span>
+  </a>
+  <a href="/p/mushaf-al-quran.html" class="icon-link">
+    <span class="fa-stack">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa-solid fa-book fa-stack-1x fa-invarse"></i>
+</span>
+   
+    <span>Buku</span>
+  </a>
+  
+  
+<a class="icon-link" onclick="BukaPlus()">
+    <span class="fa-stack">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa-regular fa-square-plus fa-stack-1x fa-invarse"></i>
+</span>
+    <span>Lainnya...</span>
+  </a>
+        
+    </div>
+</section>
+        
+<section id="section-b1" class="section-b-1-of-3">Tingkat Lanjut</section>
+        
+        <section id="section-c1" class="section-c-1-of-3">
+        Halaman 
+        
+        </section>
+        
+
+<section id="section-a2" class="section-a-2-of-3">
+<div class="menu-plus">
+  <div class="content-smart">
+    vbnn
+  </div>
+  
+    <button class="smart-btn" onclick="TutupPlus()">Sembunyikan</button>
+</div>
+</section>
+
+<section id="section-b2" class="section-b-2-of-3">
+<span>Halaman 2</span>
+</section>
+
+<section id="section-c2" class="section-c-2-of-3">
+<span>Catatan</span>
+</section>
+
+
+ 
+<section id="section-a3" class="section-a-3-of-3">
+<span>Halaman 1 of 3</span>
+</section>
+        
+<section id="section-b3" class="section-b-3-of-3">
+  <span>Halaman 2 of 3</span>
+</section>
+        
+<section id="section-c3" class="section-c-3-of-3">
+  halaman 3
+</section>
+</div>
+
+<script name='Menu Plus' type='text/Javascript'>
+//<![CDATA[
+function BukaPlus() {
+  document.querySelector(".menu-plus").classList.add('ativo')
+}
+
+function TutupPlus() {
+  let divCadastro = document.querySelector(".menu-plus")
+
+  divCadastro.classList.remove("ativo")
+  limparCamposCadastro()
+}
+//]]>
+</script>
+
