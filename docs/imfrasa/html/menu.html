@@ -1,10 +1,8 @@
-
-
-      <div class="pricing-toggle-container poin-view-button">
-        <div class="toggle-container">
-          <div class="switch-toggle well">
-<input id="page-landing" name="pages" type="radio" value="landing" checked />
-<label for="page-landing">Menu</label>
+<div class="pricing-toggle-container poin-view-button">
+  <div class="toggle-container">
+    <div class="switch-toggle well">
+     <input id="page-landing" name="pages" type="radio" value="landing" checked />
+     <label for="page-landing">Menu</label>
             
 <input id="page-ten" name="pages" type="radio" value="premium" />
 <label for="page-ten">Data</label>
@@ -142,4 +140,67 @@ function TutupPlus() {
 }
 //]]>
 </script>
-
+<script>
+//<![CDATA[
+$(document).ready(function(){
+     $('input:radio[name="pages"]').change(function(){
+        if($(this).val() == ('landing')) {
+            //show
+            $('#section-a1').fadeIn('slow');
+            $('#section-a2').fadeIn('slow');
+            $('#section-a3').fadeIn('slow');
+            //hide
+            $('#section-b1').hide();
+            $('#section-b2').hide();
+            $('#section-b3').hide();
+            $('#section-c1').hide();
+            $('#section-c2').hide();
+            $('#section-c3').hide();
+        }
+       else if($(this).val() == ('premium')) {
+            //show
+            $('#section-b1').fadeIn('slow');
+            $('#section-b2').fadeIn('slow');
+            $('#section-b3').fadeIn('slow');
+            //hide
+            $('#section-a1').hide();
+            $('#section-a2').hide();
+            $('#section-a3').hide();
+            $('#section-c1').hide();
+            $('#section-c2').hide();
+            $('#section-c3').hide();
+        }
+          else {
+            //show
+            $('#section-c1').fadeIn('slow');
+            $('#section-c2').fadeIn('slow');
+            $('#section-c3').fadeIn('slow');
+            //hide
+            $('#section-a1').hide();
+            $('#section-a2').hide();
+            $('#section-a3').hide();
+            $('#section-b1').hide();
+            $('#section-b2').hide();
+            $('#section-b3').hide();
+        }
+     });                                                
+  //$('#lp-title').hide();
+  //$('#lp-desc').hide();
+  //$('#lp-monthly').hide();
+  //$('#lp-list').hide();
+  //$('#monthly-term').hide();
+  //$('#yearly-term').hide();
+  //$('#lp-yearly').hide();
+  $('#section-b1').hide();
+  $('#section-b2').hide();
+  $('#section-b3').hide();
+  //$('#prem-monthly').hide();
+  //$('#prem-yearly').hide();
+  $('#section-c1').hide();
+  $('#section-c2').hide();
+  $('#section-c3').hide();
+  //$('#prem-plus-monthly').hide();
+  //$('#prem-plus-yearly').hide();
+}); 
+//]]>
+</script>
