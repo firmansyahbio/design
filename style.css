@@ -314,7 +314,11 @@ header.header {
   --bounce-height: -40px;
   --animation-duration: 400ms;
 }
-
+.box.four {
+  --bg: digitalviolets;
+  --bounce-height: -60px;
+  --animation-duration: 600ms;
+}
 @keyframes bounce {
   from {
     transform: translateY(0px);
