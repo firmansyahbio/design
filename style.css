@@ -315,7 +315,7 @@ header.header {
   --animation-duration: 400ms;
 }
 .box.four {
-  --bg: flora;
+  --bg: deeppink;
   --bounce-height: -60px;
   --animation-duration: 600ms;
 }
